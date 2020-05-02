@@ -1,0 +1,17 @@
+.cold{
+    color: #eee;
+    background: blue;
+    padding: 5px;
+}
+
+.moderate{
+    color: black;
+    background: goldenrod;
+    padding: 5px;
+}
+
+.hot{
+    color: #eee;
+    background: red;
+    padding: 5px;
+}
