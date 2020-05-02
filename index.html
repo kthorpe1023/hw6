@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="container opaque">
     <h1>Weather Dashboard</h1>
-    <aside id="search">
-        <h4>Search for a City:</h4>
+    <div class="row">
+    <aside id="search" class="col s2">
+        <p>Search a City:</p>
         <input type="text">
-        <button>Search</button>
+        <a class="waves-effect waves-light btn">Search</a>
         <div id="display-past"></div>
     </aside>
+    <div class="col s9">
     <main id="display-current">
     </main>
     <section>
-        <h3>5 Day Forecast:</h3>
         <div id="display-5-day"></div>
     </section>
+    </div>
+    </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

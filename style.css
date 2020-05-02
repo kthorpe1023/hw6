@@ -6,7 +6,7 @@
 
 .moderate{
     color: black;
-    background: goldenrod;
+    background: gold;
     padding: 5px;
 }
 
@@ -14,4 +14,30 @@
     color: #eee;
     background: red;
     padding: 5px;
+}
+
+h1{
+    text-align: center;
+    background: rgb(83, 82, 83);
+    color: white;
+    padding: 10px;
+}
+
+.fiveDay{
+    background: lightseagreen;
+    height: 250px;
+    margin: 5px;
+    color: white;
+}
+
+body{
+    z-index: 1;
+    background-image: url("https://images.unsplash.com/photo-1441981974669-8f9bc0978b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.opaque{
+    z-index: 3;
+    background: rgba(231, 226, 226, 0.75);
 }
