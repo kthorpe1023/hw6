@@ -34,6 +34,7 @@ h1{
     height: 250px;
     margin: 5px;
     color: white;
+    margin-bottom: 15px;
 }
 
 body{
@@ -46,4 +47,14 @@ body{
 .opaque{
     z-index: 3;
     background: rgba(231, 226, 226, 0.75);
+}
+
+.lookup{
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    text-align: center;
+    padding: 5px:
 }
